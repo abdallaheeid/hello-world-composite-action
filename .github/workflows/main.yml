@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: abdallaheeid/hello-world-composite-action@eee0ccd
+        uses: abdallaheeid/hello-world-composite-action@eee0ccd6af08eab208f4554bdfcdad21283670a2
 
         with:
           who-to-greet: 'Mona the Octocat'
